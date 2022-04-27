@@ -6,10 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Himpact - o Hábito que impacta!
-          
-        </p>
+        <p>Himpact - o Hábito que impacta!</p>
       </header>
     </div>
   );

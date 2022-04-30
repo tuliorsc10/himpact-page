@@ -43,6 +43,7 @@ const cliente = (app,bd) => {
         bd.all(`INSERT INTO CLIENTES (NOME,CPF,EMAIL,SENHA) VALUES(?,?,?,?)`, 
         [add.nome, add.cpf, add.email, add.senha])
         res.status(200).json("Usuário Cadastrado")
+        res.json({msg: 'This is CORS-enabled for all origins!'})
     })
 
 }
